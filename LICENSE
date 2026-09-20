@@ -1,21 +1,79 @@
-MIT License
+KTerminal Proprietary License
+Version 1.0 — effective for KTerminal 0.1.1 and subsequent releases that include it
 
-Copyright (c) 2026 KTerminal Contributors
+Copyright (c) 2026 KTerminal Contributors. All rights reserved except as
+expressly granted below or under a separate applicable license.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+1. Scope and ownership
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+This license applies to KTerminal's application, terminal core, first-party
+libraries, native-client bindings, and associated documentation, except material
+expressly covered by another license. KTerminal's copyright holders ("Licensor")
+retain ownership. Receiving a binary does not grant access to the private source.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+The plugin SDK, API documentation, and examples located in sdk/ are separately
+licensed under sdk/LICENSE (MIT). Third-party components retain their own
+licenses and notices. Neither exception grants rights to the proprietary
+KTerminal implementation. Where a third-party license grants you rights, this
+license does not restrict those rights.
+
+2. Free binary-use grant
+
+Subject to these terms, Licensor grants you a non-exclusive, worldwide,
+royalty-free license to install and run lawfully obtained, unmodified KTerminal
+binaries on devices you own or control for personal or business use.
+You may make reasonable backup copies and deploy those
+binaries within your organization, retaining the included notices. This grant
+has no trial expiration for the version supplied under this license.
+
+You retain ownership of your files, terminal output, and other work created with
+KTerminal. This license imposes no license requirement on that work.
+
+3. Redistribution and other restrictions
+
+Except for the internal deployment and backups permitted above, you must obtain
+Licensor's prior written permission to redistribute, mirror, sublicense, sell,
+rent, or otherwise provide copies of the proprietary software to third parties.
+Linking users to Licensor's official download is permitted. A package-manager
+recipe may reference that download without redistributing the binary itself.
+
+No permission is granted to copy, modify, publish, or distribute the proprietary
+source or to create derivative versions of the proprietary implementation.
+You may not remove ownership or license notices. Reverse engineering,
+decompilation, and disassembly are prohibited only to the extent that applicable
+law and the licenses of separately licensed components permit that restriction.
+
+4. Plugins
+
+You may develop and use independently authored plugins through documented
+extension interfaces when available. Plugin authors retain ownership of their
+plugins and may choose their own licenses, subject to the licenses of material
+they incorporate. Using the MIT SDK does not require a plugin to use MIT or
+transfer ownership to Licensor. A plugin license cannot grant rights to the
+proprietary app or core. No trademark rights or endorsement are granted.
+
+5. Earlier versions and separate agreements
+
+This license does not revoke or replace rights already granted for copies
+distributed under MIT, including KTerminal 0.1.0. The historical notice is
+preserved in licenses/LEGACY-MIT.txt. Use the license supplied with your version.
+Separately licensed components and independent plugins retain their own terms.
+
+Future paid products, support, or services may be offered under a separate
+agreement. These terms do not impose a purchase or subscription obligation or
+retroactively change the grant for a version already supplied under them.
+
+6. Warranty and liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE SOFTWARE IS PROVIDED
+"AS IS", WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, LICENSOR IS NOT LIABLE FOR
+ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE SOFTWARE OR ITS USE.
+Nothing here excludes rights or liabilities that cannot lawfully be excluded.
+
+7. Additional permissions
+
+Request redistribution or other permissions from the KTerminal maintainers via
+https://github.com/SihanTeng/KTerminal-releases. A separate written grant from
+the relevant copyright holder may provide additional rights.
